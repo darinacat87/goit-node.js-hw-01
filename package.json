@@ -1,5 +1,29 @@
 {
   "dependencies": {
+    "commander": "^10.0.0",
+    "uuid": "^9.0.0",
+    "yargs": "^17.6.2"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "name": "goit-node.js-hw-01",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darinacat87/goit-node.js-hw-01.git"
+  },
+  "author": "darinacat87",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darinacat87/goit-node.js-hw-01/issues"
+  },
+  "homepage": "https://github.com/darinacat87/goit-node.js-hw-01#readme"
 }
